@@ -73,8 +73,8 @@ let default_config = {
   clear_webview_cache: false,
 }
 // 不同项目需要设置不同的storageName，不然会导致配置信息混乱
-let CONFIG_STORAGE_NAME = 'autoscript_version'
-let PROJECT_NAME = 'AutoJS 脚手架'
+let CONFIG_STORAGE_NAME = 'syy_helper'
+let PROJECT_NAME = 'syy helper'
 let config = {}
 let storageConfig = storages.create(CONFIG_STORAGE_NAME)
 let securityFields = ['password', 'alipay_lock_password']
